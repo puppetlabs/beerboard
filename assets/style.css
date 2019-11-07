@@ -91,6 +91,10 @@ h5 {
   font-weight: 600;
 }
 
+.tap-index {
+  text-transform: uppercase;
+}
+
 footer {
   font-size:10px;
   text-align:center;

@@ -58,7 +58,7 @@ function parseSheet(data) {
 function renderTap(tap) {
   var div = '';
   div += '<div class="' + (tap.vol == 'empty' ? 'tap-table empty' : 'tap-table') + '">';
-  div += '<h4>' + tap.tap + '</h4>';
+  div += '<h4 class="tap-index">' + tap.tap + '</h4>';
   div += '<h3>' + tap.brewery + '</h3>';
   div += '<h2>' + tap.beer_name + '</h2>';
   div += '<h5>' + tap.origin + '</h5>';
