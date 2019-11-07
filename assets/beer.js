@@ -64,7 +64,7 @@ function renderTap(tap) {
   div += '<h5>' + tap.origin + '</h5>';
   div += '<div class="beer-data">';
   div += '<p><span class="label">Style:</span> <span class="value">' + tap.style + '</span></p>';
-  div += '<p><span class="label">ABV:</span> <span class="value">' + tap.abv + '%</p>';
+  div += '<p><span class="label">ABV:</span> <span class="value">' + tap.abv + '</p>';
   div += '<p><span class="label">IBU:</span> <span class="value">' + tap.ibu + '</span></p>';
   div += '<p><span class="label">Tap Date:</span> <span class="value">' + tap.tap_date + '</span></p>';
   div += '</div>';
@@ -85,7 +85,7 @@ function renderOndeck(tap) {
   div +=   '<h5>' + tap.origin + '</h5>';
   div +=   '<div class="beer-data">';
   div +=     '<p><span class="label">Style:</span> <span class="value">' + tap.style + '</span></p>';
-  div +=     '<p><span class="label">ABV:</span> <span class="value">' + tap.abv + '%</p>';
+  div +=     '<p><span class="label">ABV:</span> <span class="value">' + tap.abv + '</p>';
   div +=     '<p><span class="label">IBU:</span> <span class="value">' + tap.ibu + '</span></p>';
   div +=   '</div>';
   div += '</div>';
